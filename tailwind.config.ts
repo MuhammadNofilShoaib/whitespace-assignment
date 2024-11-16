@@ -12,6 +12,18 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        largest: "1920px",
+        larger: "1770px",
+        large: "1300px",
+        customMd: "985px",
+        mobile: "569px",
+        tablet: "1030px",
+        smallest: "1px",
+      },
+      fontFamily: {
+        custom: ['Inter', 'sans-serif'],
+      },
     },
   },
   plugins: [],
